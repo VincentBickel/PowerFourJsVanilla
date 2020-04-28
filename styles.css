@@ -1,0 +1,49 @@
+#container {
+    width: 715px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.square {
+    width: 100px;
+    height: 98px;
+    background-color: rgb(233, 234, 248);
+    border: 1px solid rgb(40, 91, 211);
+    box-shadow: 0px 1px  rgb(40, 91, 211), 1em 10px 5em blue;
+}
+
+.player-one {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 100%;
+    background-color: red;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.player-two {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 100%;
+    background-color: blue;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
